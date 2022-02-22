@@ -1,5 +1,5 @@
 {
-    "python.defaultInterpreterPath": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python"
+    "python.defaultInterpreterPath": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python",
 
     "multiCommand.commands": [
         {
@@ -26,7 +26,7 @@
                 "workbench.action.moveEditorLeftInGroup",
                 "workbench.action.moveEditorLeftInGroup",
                 "workbench.action.moveEditorLeftInGroup",
-                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup"
             ]
         },
         {
@@ -53,7 +53,7 @@
                 "workbench.action.moveEditorRightInGroup",
                 "workbench.action.moveEditorRightInGroup",
                 "workbench.action.moveEditorRightInGroup",
-                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup"
             ]
         }
     ]
