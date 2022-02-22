@@ -1,0 +1,60 @@
+{
+    "python.defaultInterpreterPath": "/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python"
+
+    "multiCommand.commands": [
+        {
+            "command": "moveEditorToLeftOfGroup",
+            "label": "moveEditorToLeftOfGroup",
+            "description": "Move a tab to the extreme left of its tab group (max 20 tabs)",
+            "sequence": [
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+                "workbench.action.moveEditorLeftInGroup",
+            ]
+        },
+        {
+            "command": "moveEditorToRightOfGroup",
+            "label": "moveEditorToRightOfGroup",
+            "description": "Move a tab to the extreme right of its tab group (max 20 tabs)",
+            "sequence": [
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+                "workbench.action.moveEditorRightInGroup",
+            ]
+        }
+    ]
+}
