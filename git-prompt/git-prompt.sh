@@ -58,11 +58,11 @@
 
         #### vcs colors
                  init_vcs_color=${init_vcs_color:-WHITE}        # initial
-                clean_vcs_color=${clean_vcs_color:-cyan}        # nothing to commit (working directory clean)
+                clean_vcs_color=${clean_vcs_color:-blue}        # nothing to commit (working directory clean)
              modified_vcs_color=${modified_vcs_color:-red}      # Changed but not updated:
                 added_vcs_color=${added_vcs_color:-green}       # Changes to be committed:
              addmoded_vcs_color=${addmoded_vcs_color:-yellow}
-            untracked_vcs_color=${untracked_vcs_color:-CYAN}    # Untracked files:
+            untracked_vcs_color=${untracked_vcs_color:-BLUE}    # Untracked files:
                    op_vcs_color=${op_vcs_color:-MAGENTA}
              detached_vcs_color=${detached_vcs_color:-RED}
 
@@ -130,6 +130,8 @@
             MAGENTA='\['`tput setaf 5; tput bold`'\]'
                CYAN='\['`tput setaf 6; tput bold`'\]'
               WHITE='\['`tput setaf 7; tput bold`'\]'
+
+               gray='\[\033[38;5;236m\]'
 
                 dim='\['`tput sgr0; tput setaf p1`'\]'  # half-bright
 
@@ -582,11 +584,11 @@ parse_vcs_status() {
         status=${status:-$added}
         status=${status:-$untracked}
         status=${status:-$init}
+        status=${status:-modified}  # ARTIFICIAL DEFAULT SINCE GITPROMPT SEEMS BROKEN
                                 # at least one should be set
                                 : ${status?prompt internal error: git status}
         eval vcs_color="\${${status}_vcs_color}"
                                 # no def:  vcs_color=${vcs_color:-$WHITE}    # default
-
 
         ### VIM
 
